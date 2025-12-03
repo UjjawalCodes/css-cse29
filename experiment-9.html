@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        body{
+            width: 100%;
+            height:100%;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4 ,1fr);
+            gap: 5px;
+        }
+        .card1 ,.card2 , .card3 ,.card4{
+            border: 1px solid black;
+            height: 200px;
+            width: 350px;
+            text-align: center;
+        }
+        header{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Responsive Product Grid</h1>
+    </header>
+    <div class="container">
+        <div class="card1">
+            <img src="" alt="">
+            <h2>Product 1</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, accusantium?</p>
+            <p><b>$499</b></p>
+        </div>
+        <div class="card2">
+            <h2>Product 2</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, rerum.</p>
+        </div>
+        <div class="card3">
+            <h2>Product 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, magni!</p>
+            <p><b>$499</b></p>
+        </div>
+        <div class="card4">
+            <h2>Product 4</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, blanditiis!</p>
+            <p><b>$499</b></p>
+        </div>
+    </div>
+</body>
+</html>

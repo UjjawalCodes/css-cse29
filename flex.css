@@ -1,0 +1,28 @@
+body{
+    background-color: #1a1a1a;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    flex-direction: row-reverse;
+    height: 500px;
+    width: 1000px;
+    border: 2px solid black;
+    background-color: #0df2eab0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.item{
+    background-color: #61be15d4;
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(39, 134, 31);
+    margin-top: 1px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

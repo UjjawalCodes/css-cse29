@@ -23,6 +23,21 @@
         header{
             text-align: center;
         }
+        @media(max-width:600px){
+            .container{
+                place-items: center;
+            }
+            .card1 ,.card2 ,.card3 , .card4{
+                grid-column: 1/5;
+                gap: 10px;
+                margin-left: 10px;
+                
+            }
+            .header{
+                text-align: center;
+                margin-left: 0;
+            }
+        }
     </style>
 </head>
 <body>

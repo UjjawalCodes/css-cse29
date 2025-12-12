@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment-10</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .navbar{
+            background-color: #1a1a1a;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            height: 10vh;
+        }
+        .phone-hide{
+            display: none;
+        }
+        .navbar a{
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+        }
+        .navbar h1{
+            margin-left: 10px;
+        }
+        .menu-icon{
+            display: none;
+        }
+        @media(max-width:768px){
+            .links{
+                display:none;
+            }
+            .menu-icon{
+                display: block;
+            }
+            .links a {
+                color:black;
+            }
+            .phone-hide{
+                background-color: #1a1a1a8c;
+                display: flex;
+                flex-direction: column;
+            }
+            .phone-hide a {
+                text-decoration: none;
+                text-align: center;
+                padding-left: 50px;
+                color: white;
+                padding-top: 5px;
+                padding-bottom: 5px;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1>ShopEase</h1>
+        <div class="links">
+            <a href="/">Home</a>
+            <a href="/">Products</a>
+            <a href="/">Categories</a>
+            <a href="/">Deals</a>
+            <a href="/">Contact</a>
+        </div>
+        <div class="menu-icon">
+            <p>&#9776;</p>
+        </div>
+        <div class="last">
+            <a href="/">Cart</a>
+            <a href="/">Login</a>
+        </div>
+        </div>
+        <div class="phone-hide">
+            <a href="/">Home</a>
+            <a href="/">Products</a>
+            <a href="/">Categories</a>
+            <a href="/">Deals</a>
+            <a href="/">Contact</a>
+            
+        </div>
+        <h1>Welcome to ShopEase</h1>
+        <p>Your one stop destination for all shopping needs.</p>
+    </div>
+</body>
+</html>
